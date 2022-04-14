@@ -363,3 +363,30 @@ h2 span {
   left: 360px;
 }
 /* STAR RATING */
+
+input[type='radio']{
+  display: none;
+}
+img:hover{
+  cursor: pointer;
+}
+img{
+  pointer-events: none;
+}
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.rating-star{
+  display: flex;
+  flex-direction: row;
+}
+
+b{
+  border: 1px solid;
+  padding: 5px;
+}
