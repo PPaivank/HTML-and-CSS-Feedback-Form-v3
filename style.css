@@ -357,6 +357,9 @@ h2 span {
   cursor: pointer;
 }
 
-
-
+.results{
+  position: relative;
+  top: -37px;
+  left: 360px;
+}
 /* STAR RATING */
